@@ -1,5 +1,6 @@
 from follower import Follower
 from follower import UserData
+import stdiomask, threading
 
 def remove_users(followers: list, client: Follower) -> None:
     removed_count = 0
